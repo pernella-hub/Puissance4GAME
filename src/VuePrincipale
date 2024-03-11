@@ -1,0 +1,20 @@
+package vue;
+
+import javax.swing.*;
+import java.awt.*;
+
+//Interface Graphique de l'application 
+
+public class VuePrincipale extends JFrame {
+    public VuePrincipale() {
+        setTitle("Puissance 4");
+        // Taille de l'application
+        setSize(700, 600);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+
+        // Composants graphiques ici (grille, boutons, etc.)
+    }
+    // Méthodes pour mettre à jour l'affichage, etc.
+}
+
